@@ -52,16 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    @Override
-//    protected void onDestroy() {
-//        super.onDestroy();
-//        if (!etNumero.getText().toString().isEmpty()) {
-//            int numero = Integer.parseInt(etNumero.getText().toString());
-//            Objeto objeto = new Objeto();
-//            objeto.numero = numero;
-//            outState.putSerializable("NUMERO", objeto);
-//        }
-//    }
 
     private class Objeto implements Serializable {
         int numero;
